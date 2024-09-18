@@ -8,12 +8,12 @@ export default {
   base: "./",
   server: {
     host: true,
-    open: !isCodeSandbox, // Open if it's not a CodeSandbox
+    open: !isCodeSandbox // Open if it's not a CodeSandbox
   },
   build: {
     outDir: "../dist",
     emptyOutDir: true,
-    sourcemap: true,
+    sourcemap: true
   },
-  plugins: [glsl()],
+  plugins: [glsl()]
 };

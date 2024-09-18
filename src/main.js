@@ -243,7 +243,7 @@ sphere.castShadow = true;
 
 const loader = new GLTFLoader();
 let model;
-loader.load("./assets/figure-of-a-dancer.gltf", (gltf) => {
+loader.load("assets/figure-of-a-dancer.gltf", (gltf) => {
   const gltfModel = gltf.scene.getObjectByName("mesh_0");
   const scale = 0.0135;
 
